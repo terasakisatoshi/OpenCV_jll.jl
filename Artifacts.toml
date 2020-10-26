@@ -1,0 +1,38 @@
+[[OpenCV]]
+arch = "armv7l"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51aa4bd3a2ca7259e5cd9f1812ed54d6df19edcd"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCV.download]]
+    sha256 = "63d0bcd73f3dfb3aab164fc1cb40825b58636ae0565bfbce404e622b4b61200b"
+    url = "https://github.com/local/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "921cb5c300d6818a7918de106ffade7848532287"
+os = "macos"
+
+    [[OpenCV.download]]
+    sha256 = "e8c9230b09eeb251b1b15f66df03488b6d463a382943305d52262ca9736cc0d8"
+    url = "https://github.com/local/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "121f60d9a0f9c1243862ee43da04fe1fe17d42f8"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCV.download]]
+    sha256 = "f31dd431e180a99bec0fe6204b303976164f691a8a7c14af9e19412c76a059b6"
+    url = "https://github.com/local/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b168cbdfab5bddd3f6796fc5c7aeccedcd129308"
+os = "windows"
+
+    [[OpenCV.download]]
+    sha256 = "9c35c1be525b0d023f972406476d00b6fa358ebb1339232bd94cc715c1839878"
+    url = "https://github.com/local/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
