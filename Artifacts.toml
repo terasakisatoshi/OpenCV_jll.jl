@@ -58,10 +58,10 @@ os = "windows"
 [[OpenCV]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b2e33a36e2b0371b5ef6d902f8865a4804f49f03"
+git-tree-sha1 = "2b709cc5456d3ed3ed7df36d2abaf4ff3ff03106"
 libc = "glibc"
 os = "linux"
 
     [[OpenCV.download]]
-    sha256 = "ea1a543f5c72599701751c9246fb318415fb2bcd9eb612df41cc4e78ce0f9e92"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.2+0/OpenCV.v0.2.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "ba12d38921a8d661e330f9e03bcd33ca18382e6f9b09ffe7fa871960fbcc950e"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.3+0/OpenCV.v0.2.3.x86_64-linux-gnu-cxx11.tar.gz"
