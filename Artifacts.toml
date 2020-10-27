@@ -1,38 +1,67 @@
 [[OpenCV]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a93f2a6f434823728ac0033f8208d469ab71b663"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCV.download]]
+    sha256 = "e8dedea2726239497cc27bf0ddaaa03d0ae156f8878ed451ed3c65f1913bb90e"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[OpenCV]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d22811cab50183836cdafd440a480c453549d005"
+git-tree-sha1 = "8a9f5246b926b4e8ca71b20c132ae61cef4be251"
 libc = "glibc"
 os = "linux"
 
     [[OpenCV.download]]
-    sha256 = "1f6a72f9ef3a0f85ccb25070a71fc339c6f1b51809d2db34b910b7fc79099040"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "1e4090f5cb86283ac4d94dc76ce68c344f4b7a52e44b61dfef9898efd9412c6f"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenCV]]
-arch = "x86_64"
+arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "74b5f9570570fef0ea8a042a033f0c99a7044ece"
-os = "macos"
-
-    [[OpenCV.download]]
-    sha256 = "dcd48c3ddc48827af22a6c5f81ec630da8d602a5e6af040a4f4e9dbbfdb57ce0"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[OpenCV]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7ba999c9c3083992cf13243dc9221cda7eb6a0fb"
+git-tree-sha1 = "63aee7815b0035d8bf74a42764b5e16109c1b381"
 libc = "glibc"
 os = "linux"
 
     [[OpenCV.download]]
-    sha256 = "604cc5a227f6058b24a9eb4fa6b0d21592a23f9a46f0949b86b0c6ee8afefe7c"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "01fce0b51cacac8912ba303d36c3179d3bad26c4e1b3836abedd3c559b8bc95e"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.i686-linux-gnu-cxx11.tar.gz"
 [[OpenCV]]
-arch = "x86_64"
+arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "547441315c0b4130775d542e5bd374299e4c238b"
+git-tree-sha1 = "db86ad5b903bd699bffda9a83b180775fd4fb4cc"
 os = "windows"
 
     [[OpenCV.download]]
-    sha256 = "de4ce6da8aa183ab39728a9d695b7ccc08e182c577e9f5213bb04bf1e339a478"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.1.0+0/OpenCV.v0.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "2c17a7f927bfcf1726c609cbc8e77f88a7aea2aa5b3d202cb52dd6cb94440c70"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.i686-w64-mingw32-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8ed159d402b65d73e69c8fb23543acc66a959e3b"
+os = "macos"
+
+    [[OpenCV.download]]
+    sha256 = "d98cdc287b3b62a6ebcd921f43737e36f037989e53fff9970d12f76be2783143"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.x86_64-apple-darwin14-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a92b5c5bcfd705d1761fbff2cd378218784d5864"
+libc = "glibc"
+os = "linux"
+
+    [[OpenCV.download]]
+    sha256 = "3b1c638467649e9685babce33a67b6b1eaf2a486ba497f26062ca0f054ff87d3"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59333b0a1bf9d397ca284168c89e946b922ffd8b"
+os = "windows"
+
+    [[OpenCV.download]]
+    sha256 = "8854d33049b78cf71d9f184af03eb7cc76f5ad59c8e75056eddc8b3600b9130e"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
