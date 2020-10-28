@@ -1,6 +1,6 @@
 name = "OpenCV_jll"
 uuid = "33b9d88c-85f9-5d73-bd91-4e2b95a9aa0b"
-version = "0.2.5+0"
+version = "0.3.0+0"
 
 [deps]
 Qt_jll = "ede63266-ebff-546c-83e0-1c6fb6d0efc8"

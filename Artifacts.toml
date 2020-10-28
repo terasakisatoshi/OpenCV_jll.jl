@@ -40,28 +40,28 @@ os = "windows"
 [[OpenCV]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8ed159d402b65d73e69c8fb23543acc66a959e3b"
+git-tree-sha1 = "a6de872d3271b5498e3d51c1c40141edf8cf23bc"
 os = "macos"
 
     [[OpenCV.download]]
-    sha256 = "d98cdc287b3b62a6ebcd921f43737e36f037989e53fff9970d12f76be2783143"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "fffe3c4ad791e44f0581e24080e63aa89e670c704ddce844f532cc00629d3030"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.3.0+0/OpenCV.v0.3.0.x86_64-apple-darwin14-cxx11.tar.gz"
 [[OpenCV]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "59333b0a1bf9d397ca284168c89e946b922ffd8b"
-os = "windows"
-
-    [[OpenCV.download]]
-    sha256 = "8854d33049b78cf71d9f184af03eb7cc76f5ad59c8e75056eddc8b3600b9130e"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.0+0/OpenCV.v0.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
-[[OpenCV]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a8456b159672518131aeb062cf72482bee5abe0c"
+git-tree-sha1 = "09daf79ab89bf8031cf1486fe5d9c5e12fe0e676"
 libc = "glibc"
 os = "linux"
 
     [[OpenCV.download]]
-    sha256 = "06be01c4b47884f69ea8e79133b18b7eba6bac64db87951ae3aa2be22b6bf96e"
-    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.2.5+0/OpenCV.v0.2.5.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "4602354e50c6fcb5750c26013a602f868f1738438432d4387c963a59d4f9be72"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.3.0+0/OpenCV.v0.3.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[OpenCV]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "258819c249a59e1e68f4e6fecdf88dd40ffa43d6"
+os = "windows"
+
+    [[OpenCV.download]]
+    sha256 = "db78605a86e5e2c151274f721c56c088e891ec95f24fae5d76a533d9ed184bc9"
+    url = "https://github.com/terasakisatoshi/OpenCV_jll.jl/releases/download/OpenCV-v0.3.0+0/OpenCV.v0.3.0.x86_64-w64-mingw32-cxx11.tar.gz"
